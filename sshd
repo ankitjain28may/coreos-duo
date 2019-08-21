@@ -1,0 +1,7 @@
+auth    required    pam_env.so
+auth    sufficient  /etc/pam_duo/lib64/pam_duo.so
+auth    required    pam_deny.so
+
+account     include     system-remote-login
+password    include     system-remote-login
+session     include     system-remote-login

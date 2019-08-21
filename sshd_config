@@ -1,0 +1,11 @@
+# Use most defaults for sshd configuration.
+
+PubkeyAuthentication yes
+PasswordAuthentication no
+ChallengeResponseAuthentication yes
+AuthenticationMethods publickey,keyboard-interactive
+
+UseDNS no
+UsePAM yes
+PrintLastLog no # handled by PAM
+PrintMotd no # handled by PAM
