@@ -13,5 +13,5 @@ Run the following command to install duo in CoreOS.
     --volume /etc/ssh:/etc/ssh \
     --volume /etc/pam.d:/pam.d \
     --env-file duo.env \
-    ankitjain28/coreos-duo:{TAG}
+    ankitjain28/coreos-duo:v1.0
 ```
